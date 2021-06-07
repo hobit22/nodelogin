@@ -144,3 +144,12 @@
 {"level":"info","message":"[11:42:58] db 연결 성공"}
 {"level":"info","message":"[11:42:59] db 연결 성공"}
 {"level":"info","message":"[11:43:42] db 연결 성공"}
+{"level":"error","message":"[11:51:45] [500](H:\\node_login\\views\\main\\index.html)\n  Error: template not found: menu/_main.html"}
+{"level":"error","message":"[11:51:45] Template render error: (H:\\node_login\\views\\main\\index.html)\n  Error: template not found: menu/_main.html\n    at Object._prettifyError (H:\\node_login\\node_modules\\nunjucks\\src\\lib.js:36:11)\n    at H:\\node_login\\node_modules\\nunjucks\\src\\environment.js:563:19\n    at eval (eval at _compile (H:\\node_login\\node_modules\\nunjucks\\src\\environment.js:633:18), <anonymous>:90:12)\n    at eval (eval at _compile (H:\\node_login\\node_modules\\nunjucks\\src\\environment.js:633:18), <anonymous>:181:12)\n    at createTemplate (H:\\node_login\\node_modules\\nunjucks\\src\\environment.js:295:11)\n    at next (H:\\node_login\\node_modules\\nunjucks\\src\\lib.js:330:7)\n    at handle (H:\\node_login\\node_modules\\nunjucks\\src\\environment.js:329:11)\n    at H:\\node_login\\node_modules\\nunjucks\\src\\environment.js:339:9\n    at next (H:\\node_login\\node_modules\\nunjucks\\src\\lib.js:328:7)\n    at Object.asyncIter (H:\\node_login\\node_modules\\nunjucks\\src\\lib.js:334:3)"}
+{"level":"info","message":"[11:53:18] db 연결 성공"}
+{"level":"info","message":"[11:53:45] db 연결 성공"}
+{"level":"info","message":"[11:54:47] db 연결 성공"}
+{"level":"info","message":"[11:55:30] db 연결 성공"}
+{"level":"info","message":"[11:55:32] db 연결 성공"}
+{"level":"info","message":"[11:56:25] db 연결 성공"}
+{"level":"info","message":"[12:02:41] db 연결 성공"}
