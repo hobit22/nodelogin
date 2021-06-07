@@ -94,7 +94,7 @@ app.use((req, res, next) => {
 
 /** 라우터 등록 */
 app.use('/', indexRouter);
-app.use('/member/login', indexRouter);
+//app.use('/member/login', indexRouter);
 
 app.use((req, res, next) => { //없는 페이지 미들웨어
 	const error = new Error(`${req.method} ${req.url} 는 없는 페이지 입니다.`);
