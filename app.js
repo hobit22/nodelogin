@@ -35,6 +35,22 @@ if(process.env.NODE_ENV == 'production'){
 }else {
 	app.use(morgan("dev"));	
 }
+
+app.use(cookieParser(process.env.COOKIE_SECRET)); // 쿠키파서 미들웨어
+
+//세션 기본 설정
+app.use(session({
+	resave : false,
+	saveUninitialized : true,
+	secret : process.env.COOKIE_SECRET,
+	cookie : {
+		httpOnly : true,
+		secure : false, 
+	},
+	name : 'hbtest',
+}));
+
+
 app.use(methodOverride('_method'));
 app.use('/', express.static(path.join(__dirname, 'public')));
 app.use(express.json());
@@ -53,9 +69,10 @@ app.use((err,req,res,next)=> { // 오류 처리 미들웨어
 	
 	if(process.env.NODE_ENV == 'production' ) err.stack ="";
 	
-	res.locals.error = err;
+	res.locals.error = err;	
+	res.status(err.status).render('error'); //에러 페이지 출력
 });
 
 app.listen(app.get('port'),() =>{
 	console.log(app.get('port'), '번 포트에서 대기중');
-});
+});	
