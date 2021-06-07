@@ -43,7 +43,8 @@ router.route("/login")
 		
 /** /member/logout */
 router.get("/logout", (req,res,next) =>{
-	
+	req.session.destroy();
+	return res.redirect("/member/login");
 });
 
 

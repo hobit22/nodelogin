@@ -97,6 +97,7 @@ const member = {
 			return false;
 		}
 	},
+	
 };
 
 module.exports = member;
