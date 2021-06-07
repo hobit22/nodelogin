@@ -1,3 +1,4 @@
+const { joinValidator } = require('../middlewares/join_validator');
 const express = require('express');
 const router = express.Router();
 
@@ -8,8 +9,9 @@ router.route("/join")
 			return res.render("member/form");
 		})
 		/**	 회원가입 처리 */
-		.post((req,res,next)=>{
-			
+		.post(joinValidator, (req,res,next)=>{
+			console.log(req.body);
+			return res.send('');
 		});
 		
 /** /member/login */
