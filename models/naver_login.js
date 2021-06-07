@@ -16,7 +16,7 @@ const naverLogin = {
 			response_type : 'code',
 			client_id : this.clientId,
 			redirect_uri : this.redirectUri,
-			state: new Date().getTime();
+			state: new Date().getTime(),
 		};
 		
 		const url = "http://nid.naver.com/~~~~" + querystring.stringify(params);

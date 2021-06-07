@@ -1,6 +1,8 @@
 const { joinValidator } = require('../middlewares/join_validator');
 const { loginValidator } = require("../middlewares/login_validator");
+const { memberOnly, guestOnly } = require("../middlewares/member_only");
 const member = require("../models/member");
+const naverLogin = require("../models/naver_login");//네이버 로그인
 const { alert, go } = require("../lib/common");
 const express = require('express');
 const router = express.Router();
@@ -8,7 +10,7 @@ const router = express.Router();
 /** /member/join */
 router.route("/join")
 		/**	 회원가입 양식 */
-		.get((req,res,next) =>{
+		.get(guestOnly, (req,res,next) =>{
 			return res.render("member/form");
 		})
 		/**	 회원가입 처리 */
@@ -27,7 +29,10 @@ router.route("/join")
 /** /member/login */
 router.route("/login")
 		/** 로그인 양식 */
-		.get((req,res,next) =>{
+		.get(guestOnly, (req,res,next) =>{
+			const data = {
+				naverLoginUrl : naverLogin.getCodeUrl(),
+			};
 			return res.render("member/login");
 		})
 		/** 로그인 처리 */ 

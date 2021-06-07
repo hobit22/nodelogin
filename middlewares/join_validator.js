@@ -47,6 +47,22 @@ module.exports.joinValidator = async (req,res,next) => {
 		
 		// 유효성 검사 성공 - 다음 미들웨어로 이동 
 		next();
+		
+		/**
+			휴대폰 번호 유효성 검사
+		*/
+		if(req.body.cellPhone) {
+			let cellPhone = req.body.cellPhone;
+			cellPhone = cellPhone.replace(/[^\d]/g,'');
+			
+			const mobilePattern = /01[678901]\d{3,4}\d{4}/;
+
+			if(!mobilePattern.test(cellPhone)) {
+				throw new Error(`휴대폰 번호 형식이 아닙니다`);
+			}
+			
+			req.body.cellPhone = cellPhone.replace(/(\d{3})(\d{4})(\d{4})/, "$1-$2-$3");
+		}
 
 	} catch(err){
 		return alert(err.message, res);

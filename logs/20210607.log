@@ -349,3 +349,48 @@
 {"level":"info","message":"[15:49:04] db 연결 성공"}
 {"level":"info","message":"[15:49:21] db 연결 성공"}
 {"level":"info","message":"[15:49:23] db 연결 성공"}
+{"level":"info","message":"[17:22:14] db 연결 성공"}
+{"level":"error","message":"[17:22:19] [500]Cannot read property 'send' of undefined"}
+{"level":"error","message":"[17:22:19] TypeError: Cannot read property 'send' of undefined\n    at alert (H:\\node_login\\lib\\common.js:24:14)\n    at module.exports.loginValidator (H:\\node_login\\middlewares\\login_validator.js:4:10)\n    at Layer.handle [as handle_request] (H:\\node_login\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (H:\\node_login\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at next (H:\\node_login\\node_modules\\express\\lib\\router\\route.js:131:14)\n    at Route.dispatch (H:\\node_login\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (H:\\node_login\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at H:\\node_login\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (H:\\node_login\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (H:\\node_login\\node_modules\\express\\lib\\router\\index.js:275:10)"}
+{"level":"info","message":"[17:24:44] db 연결 성공"}
+{"level":"error","message":"[17:24:46] [500]Cannot read property 'send' of undefined"}
+{"level":"error","message":"[17:24:46] TypeError: Cannot read property 'send' of undefined\n    at alert (H:\\node_login\\lib\\common.js:24:14)\n    at module.exports.loginValidator (H:\\node_login\\middlewares\\login_validator.js:4:10)\n    at Layer.handle [as handle_request] (H:\\node_login\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (H:\\node_login\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at next (H:\\node_login\\node_modules\\express\\lib\\router\\route.js:131:14)\n    at Route.dispatch (H:\\node_login\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (H:\\node_login\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at H:\\node_login\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (H:\\node_login\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (H:\\node_login\\node_modules\\express\\lib\\router\\index.js:275:10)"}
+{"level":"info","message":"[17:25:16] db 연결 성공"}
+{"level":"error","message":"[17:25:18] [500]Cannot read property 'send' of undefined"}
+{"level":"error","message":"[17:25:18] TypeError: Cannot read property 'send' of undefined\n    at alert (H:\\node_login\\lib\\common.js:24:14)\n    at module.exports.loginValidator (H:\\node_login\\middlewares\\login_validator.js:4:10)\n    at Layer.handle [as handle_request] (H:\\node_login\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (H:\\node_login\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at next (H:\\node_login\\node_modules\\express\\lib\\router\\route.js:131:14)\n    at Route.dispatch (H:\\node_login\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (H:\\node_login\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at H:\\node_login\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (H:\\node_login\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (H:\\node_login\\node_modules\\express\\lib\\router\\index.js:275:10)"}
+{"level":"info","message":"[17:26:02] db 연결 성공"}
+{"level":"info","message":"[17:26:28] db 연결 성공"}
+{"level":"info","message":"[17:28:15] db 연결 성공"}
+{"level":"error","message":"[17:28:22] [404]GET /favicon.ico 는 없는 페이지 입니다."}
+{"level":"error","message":"[17:28:22] Error: GET /favicon.ico 는 없는 페이지 입니다.\n    at H:\\node_login\\app.js:104:16\n    at Layer.handle [as handle_request] (H:\\node_login\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (H:\\node_login\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at H:\\node_login\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (H:\\node_login\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (H:\\node_login\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at H:\\node_login\\node_modules\\express\\lib\\router\\index.js:635:15\n    at next (H:\\node_login\\node_modules\\express\\lib\\router\\index.js:260:14)\n    at Function.handle (H:\\node_login\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (H:\\node_login\\node_modules\\express\\lib\\router\\index.js:47:12)"}
+{"level":"error","message":"[17:28:48] TypeError: Cannot read property 'send' of undefined\n    at alert (H:\\node_login\\lib\\common.js:24:14)\n    at module.exports.loginValidator (H:\\node_login\\middlewares\\login_validator.js:4:10)\n    at Layer.handle [as handle_request] (H:\\node_login\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (H:\\node_login\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at next (H:\\node_login\\node_modules\\express\\lib\\router\\route.js:131:14)\n    at Route.dispatch (H:\\node_login\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (H:\\node_login\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at H:\\node_login\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (H:\\node_login\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (H:\\node_login\\node_modules\\express\\lib\\router\\index.js:275:10)"}
+{"level":"error","message":"[17:28:48] [500]Cannot read property 'send' of undefined"}
+{"level":"error","message":"[17:33:47] [500]Cannot read property 'send' of undefined"}
+{"level":"error","message":"[17:33:47] TypeError: Cannot read property 'send' of undefined\n    at alert (H:\\node_login\\lib\\common.js:24:14)\n    at module.exports.loginValidator (H:\\node_login\\middlewares\\login_validator.js:4:10)\n    at Layer.handle [as handle_request] (H:\\node_login\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (H:\\node_login\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at next (H:\\node_login\\node_modules\\express\\lib\\router\\route.js:131:14)\n    at Route.dispatch (H:\\node_login\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (H:\\node_login\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at H:\\node_login\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (H:\\node_login\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (H:\\node_login\\node_modules\\express\\lib\\router\\index.js:275:10)"}
+{"level":"info","message":"[17:35:10] db 연결 성공"}
+{"level":"error","message":"[17:35:17] [404]GET /member/find_id 는 없는 페이지 입니다."}
+{"level":"error","message":"[17:35:17] Error: GET /member/find_id 는 없는 페이지 입니다.\n    at H:\\node_login\\app.js:104:16\n    at Layer.handle [as handle_request] (H:\\node_login\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (H:\\node_login\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at H:\\node_login\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (H:\\node_login\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (H:\\node_login\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at H:\\node_login\\node_modules\\express\\lib\\router\\index.js:635:15\n    at next (H:\\node_login\\node_modules\\express\\lib\\router\\index.js:260:14)\n    at Function.handle (H:\\node_login\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (H:\\node_login\\node_modules\\express\\lib\\router\\index.js:47:12)"}
+{"level":"error","message":"[17:35:22] Error: data and hash arguments required\n    at Object.compare (H:\\node_login\\node_modules\\bcrypt\\bcrypt.js:208:17)\n    at H:\\node_login\\node_modules\\bcrypt\\promises.js:29:12\n    at new Promise (<anonymous>)\n    at Object.module.exports.promise (H:\\node_login\\node_modules\\bcrypt\\promises.js:20:12)\n    at Object.compare (H:\\node_login\\node_modules\\bcrypt\\bcrypt.js:204:25)\n    at Object.login (H:\\node_login\\models\\member.js:72:31)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n    at async H:\\node_login\\routes\\member.js:40:19"}
+{"level":"info","message":"[17:50:43] db 연결 성공"}
+{"level":"info","message":"[17:51:01] db 연결 성공"}
+{"level":"info","message":"[17:51:28] db 연결 성공"}
+{"level":"info","message":"[17:52:44] db 연결 성공"}
+{"level":"info","message":"[17:53:37] db 연결 성공"}
+{"level":"info","message":"[17:53:49] db 연결 성공"}
+{"level":"info","message":"[17:54:02] db 연결 성공"}
+{"level":"info","message":"[17:54:06] db 연결 성공"}
+{"level":"info","message":"[17:54:08] db 연결 성공"}
+{"level":"info","message":"[17:55:35] db 연결 성공"}
+{"level":"info","message":"[17:55:56] db 연결 성공"}
+{"level":"info","message":"[17:56:13] db 연결 성공"}
+{"level":"info","message":"[17:58:55] db 연결 성공"}
+{"level":"info","message":"[17:59:04] db 연결 성공"}
+{"level":"info","message":"[17:59:12] db 연결 성공"}
+{"level":"info","message":"[18:00:07] db 연결 성공"}
+{"level":"info","message":"[18:00:19] db 연결 성공"}
+{"level":"info","message":"[18:00:33] db 연결 성공"}
+{"level":"info","message":"[18:00:39] db 연결 성공"}
+{"level":"info","message":"[18:02:11] db 연결 성공"}
+{"level":"info","message":"[18:02:15] db 연결 성공"}
+{"level":"info","message":"[18:02:22] db 연결 성공"}
+{"level":"info","message":"[18:05:27] db 연결 성공"}
