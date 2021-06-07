@@ -22,7 +22,7 @@
 		{% endblock %}
 		<title>{% if pageTitle %}{{ pageTitle }} - {% endif %}로그인테스트</title>
 	</head>
-	<body>
+	<body {% if bodyClass %} class='body_{{ bodyClass }}' {% endif %}>
 		{% block header %}
 		{% include "outline/header/_main.html" %}
 		{% endblock %}
