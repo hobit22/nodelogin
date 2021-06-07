@@ -289,3 +289,45 @@
 {"level":"info","message":"[15:10:24] db 연결 성공"}
 {"level":"info","message":"[15:10:30] db 연결 성공"}
 {"level":"info","message":"[15:11:01] db 연결 성공"}
+{"level":"info","message":"[15:22:15] db 연결 성공"}
+{"level":"info","message":"[15:22:25] db 연결 성공"}
+{"level":"info","message":"[15:23:26] db 연결 성공"}
+{"level":"info","message":"[15:23:42] db 연결 성공"}
+{"level":"info","message":"[15:24:04] db 연결 성공"}
+{"level":"info","message":"[15:24:38] db 연결 성공"}
+{"level":"info","message":"[15:24:58] db 연결 성공"}
+{"level":"info","message":"[15:25:51] db 연결 성공"}
+{"level":"info","message":"[15:26:08] db 연결 성공"}
+{"level":"info","message":"[15:27:19] db 연결 성공"}
+{"level":"info","message":"[15:32:32] db 연결 성공"}
+{"level":"error","message":"[15:32:38] Error: data and hash arguments required\n    at Object.compare (H:\\node_login\\node_modules\\bcrypt\\bcrypt.js:208:17)\n    at H:\\node_login\\node_modules\\bcrypt\\promises.js:29:12\n    at new Promise (<anonymous>)\n    at Object.module.exports.promise (H:\\node_login\\node_modules\\bcrypt\\promises.js:20:12)\n    at Object.compare (H:\\node_login\\node_modules\\bcrypt\\bcrypt.js:204:25)\n    at Object.login (H:\\node_login\\models\\member.js:72:31)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n    at async H:\\node_login\\routes\\member.js:36:19"}
+{"level":"error","message":"[15:33:02] Error: data and hash arguments required\n    at Object.compare (H:\\node_login\\node_modules\\bcrypt\\bcrypt.js:208:17)\n    at H:\\node_login\\node_modules\\bcrypt\\promises.js:29:12\n    at new Promise (<anonymous>)\n    at Object.module.exports.promise (H:\\node_login\\node_modules\\bcrypt\\promises.js:20:12)\n    at Object.compare (H:\\node_login\\node_modules\\bcrypt\\bcrypt.js:204:25)\n    at Object.login (H:\\node_login\\models\\member.js:72:31)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n    at async H:\\node_login\\routes\\member.js:36:19"}
+{"level":"error","message":"[15:33:02] Error: data and hash arguments required\n    at Object.compare (H:\\node_login\\node_modules\\bcrypt\\bcrypt.js:208:17)\n    at H:\\node_login\\node_modules\\bcrypt\\promises.js:29:12\n    at new Promise (<anonymous>)\n    at Object.module.exports.promise (H:\\node_login\\node_modules\\bcrypt\\promises.js:20:12)\n    at Object.compare (H:\\node_login\\node_modules\\bcrypt\\bcrypt.js:204:25)\n    at Object.login (H:\\node_login\\models\\member.js:72:31)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n    at async H:\\node_login\\routes\\member.js:36:19"}
+{"level":"error","message":"[15:34:20] Error: data and hash arguments required\n    at Object.compare (H:\\node_login\\node_modules\\bcrypt\\bcrypt.js:208:17)\n    at H:\\node_login\\node_modules\\bcrypt\\promises.js:29:12\n    at new Promise (<anonymous>)\n    at Object.module.exports.promise (H:\\node_login\\node_modules\\bcrypt\\promises.js:20:12)\n    at Object.compare (H:\\node_login\\node_modules\\bcrypt\\bcrypt.js:204:25)\n    at Object.login (H:\\node_login\\models\\member.js:72:31)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n    at async H:\\node_login\\routes\\member.js:36:19"}
+{"level":"info","message":"[15:34:22] db 연결 성공"}
+{"level":"error","message":"[15:34:33] Error: data and hash arguments required\n    at Object.compare (H:\\node_login\\node_modules\\bcrypt\\bcrypt.js:208:17)\n    at H:\\node_login\\node_modules\\bcrypt\\promises.js:29:12\n    at new Promise (<anonymous>)\n    at Object.module.exports.promise (H:\\node_login\\node_modules\\bcrypt\\promises.js:20:12)\n    at Object.compare (H:\\node_login\\node_modules\\bcrypt\\bcrypt.js:204:25)\n    at Object.login (H:\\node_login\\models\\member.js:72:31)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n    at async H:\\node_login\\routes\\member.js:36:19"}
+{"level":"error","message":"[15:36:12] Error: data and hash arguments required\n    at Object.compare (H:\\node_login\\node_modules\\bcrypt\\bcrypt.js:208:17)\n    at H:\\node_login\\node_modules\\bcrypt\\promises.js:29:12\n    at new Promise (<anonymous>)\n    at Object.module.exports.promise (H:\\node_login\\node_modules\\bcrypt\\promises.js:20:12)\n    at Object.compare (H:\\node_login\\node_modules\\bcrypt\\bcrypt.js:204:25)\n    at Object.login (H:\\node_login\\models\\member.js:72:31)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n    at async H:\\node_login\\routes\\member.js:36:19"}
+{"level":"info","message":"[15:36:14] db 연결 성공"}
+{"level":"error","message":"[15:36:18] ReferenceError: req is not defined\n    at Object.login (H:\\node_login\\models\\member.js:74:5)\n    at async H:\\node_login\\routes\\member.js:36:19"}
+{"level":"error","message":"[15:36:23] ReferenceError: req is not defined\n    at Object.login (H:\\node_login\\models\\member.js:74:5)\n    at async H:\\node_login\\routes\\member.js:36:19"}
+{"level":"info","message":"[15:36:50] db 연결 성공"}
+{"level":"info","message":"[15:36:57] db 연결 성공"}
+{"level":"info","message":"[15:37:06] db 연결 성공"}
+{"level":"info","message":"[15:37:11] db 연결 성공"}
+{"level":"info","message":"[15:37:35] db 연결 성공"}
+{"level":"info","message":"[15:38:39] db 연결 성공"}
+{"level":"info","message":"[15:39:04] db 연결 성공"}
+{"level":"info","message":"[15:39:10] db 연결 성공"}
+{"level":"info","message":"[15:39:25] db 연결 성공"}
+{"level":"info","message":"[15:39:33] db 연결 성공"}
+{"level":"info","message":"[15:39:36] db 연결 성공"}
+{"level":"info","message":"[15:39:38] db 연결 성공"}
+{"level":"info","message":"[15:39:39] db 연결 성공"}
+{"level":"info","message":"[15:39:43] db 연결 성공"}
+{"level":"info","message":"[15:39:48] db 연결 성공"}
+{"level":"info","message":"[15:39:54] db 연결 성공"}
+{"level":"info","message":"[15:40:20] db 연결 성공"}
+{"level":"info","message":"[15:40:31] db 연결 성공"}
+{"level":"info","message":"[15:41:00] db 연결 성공"}
+{"level":"info","message":"[15:41:11] db 연결 성공"}
+{"level":"info","message":"[15:41:19] db 연결 성공"}

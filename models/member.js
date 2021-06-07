@@ -58,17 +58,45 @@ const member = {
 	/**
 		로그인 처리 
 	*/
-	login : async function(memId, memPw){
+	login : async function(memId, memPw, req){
 		try{
 			/**
 				1. 회원 정보 조회
 				2. 비밀번호 검증
 			*/
+			const info = await this.get(memId);
+			if(!info) {
+				throw new Error(`존재하지 않는 회원입니다. - ${memId}`);
+			}
+			
+			const match = await bcrypt.compare(memPw, info.memPw);
+			if(match){
+				req.session.memId = info.memId;
+				return true;
+			}
+			return false;
+			
 		}catch(err){
 			logger(err.stack, 'error');
 			return false;
 		}
-	}
+	},
+	
+	/** 회원정보 조회 */
+	get : async function(memId){
+		try{
+			const sql = `SELECT * FROM member WHERE memId = ?`;
+			const rows = await sequelize.query(sql , {
+				replacements : [memId],
+				type : QueryTypes.SELECT,
+			});
+			
+			return rows[0] || {};
+		} catch(err){
+			logger(err.stack, 'error');
+			return false;
+		}
+	},
 };
 
 module.exports = member;

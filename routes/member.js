@@ -33,8 +33,12 @@ router.route("/login")
 		/** 로그인 처리 */ 
 		.post(loginValidator, async (req,res,next)=>{
 			console.log(req.body);
-			const result = await member.login(req.body.memId, req.body.memPw);
-			return res.send('');
+			const result = await member.login(req.body.memId, req.body.memPw, req);
+			if(result){ // 로그인 성공 -> 메인페이지
+				return go("/", res, "parent");
+			}
+			
+			return alert("로그인 실패",res);
 		});
 		
 /** /member/logout */
