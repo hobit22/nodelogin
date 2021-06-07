@@ -9,6 +9,9 @@ const session = require('express-session');
 const logger = require('./lib/logger');
 const { sequelize } = require("./models");
 
+/** 라우터 */
+const indexRouter = require('./routes/index'); //index생략가능
+
 dotenv.config();
 
 const app = express();
@@ -55,6 +58,12 @@ app.use(methodOverride('_method'));
 app.use('/', express.static(path.join(__dirname, 'public')));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
+
+
+/** 라우터 등록 */
+app.use('/', indexRouter);
+
+
 
 app.use((req, res, next) => { //없는 페이지 미들웨어
 	const error = new Error(`${req.method} ${req.url} 는 없는 페이지 입니다.`);
