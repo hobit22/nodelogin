@@ -1,0 +1,7 @@
+npm i express morgan dotenv method-override cookie-parser express-session nunjucks cross-env winston pm2
+npm i -D nodemon
+npm i sequelize sequelize-cli mysql2
+
+npx sequelize init 
+
+bebel.js ?
