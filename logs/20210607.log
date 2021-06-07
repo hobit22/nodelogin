@@ -228,3 +228,64 @@
 {"level":"info","message":"[14:24:25] db 연결 성공"}
 {"level":"info","message":"[14:25:28] db 연결 성공"}
 {"level":"info","message":"[14:25:58] db 연결 성공"}
+{"level":"info","message":"[14:26:20] db 연결 성공"}
+{"level":"info","message":"[14:27:58] db 연결 성공"}
+{"level":"info","message":"[14:28:00] db 연결 성공"}
+{"level":"info","message":"[14:34:04] db 연결 성공"}
+{"level":"info","message":"[14:34:18] db 연결 성공"}
+{"level":"info","message":"[14:46:45] db 연결 성공"}
+{"level":"error","message":"[14:46:48] ReferenceError: hash is not defined\n    at Object.join (H:\\node_login\\models\\member.js:27:13)\n    at H:\\node_login\\routes\\member.js:14:47\n    at Layer.handle [as handle_request] (H:\\node_login\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (H:\\node_login\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at module.exports.joinValidator (H:\\node_login\\middlewares\\join_validator.js:49:3)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"info","message":"[14:48:38] db 연결 성공"}
+{"level":"info","message":"[14:49:20] db 연결 성공"}
+{"level":"info","message":"[14:49:25] db 연결 성공"}
+{"level":"info","message":"[14:49:26] db 연결 성공"}
+{"level":"error","message":"[14:49:34] ReferenceError: bcyrpt is not defined\n    at Object.join (H:\\node_login\\models\\member.js:23:17)\n    at H:\\node_login\\routes\\member.js:14:47\n    at Layer.handle [as handle_request] (H:\\node_login\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (H:\\node_login\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at module.exports.joinValidator (H:\\node_login\\middlewares\\join_validator.js:49:3)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"info","message":"[14:51:19] db 연결 성공"}
+{"level":"info","message":"[14:51:47] db 연결 성공"}
+{"level":"info","message":"[14:51:58] db 연결 성공"}
+{"level":"info","message":"[14:52:13] db 연결 성공"}
+{"level":"info","message":"[14:52:16] db 연결 성공"}
+{"level":"info","message":"[14:52:36] db 연결 성공"}
+{"level":"info","message":"[14:52:55] db 연결 성공"}
+{"level":"error","message":"[14:53:07] ReferenceError: bcyrpt is not defined\n    at Object.join (H:\\node_login\\models\\member.js:23:17)\n    at H:\\node_login\\routes\\member.js:15:47\n    at Layer.handle [as handle_request] (H:\\node_login\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (H:\\node_login\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at module.exports.joinValidator (H:\\node_login\\middlewares\\join_validator.js:49:3)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"info","message":"[14:54:13] db 연결 성공"}
+{"level":"error","message":"[14:54:16] ReferenceError: bcyrpt is not defined\n    at Object.join (H:\\node_login\\models\\member.js:23:17)\n    at H:\\node_login\\routes\\member.js:15:47\n    at Layer.handle [as handle_request] (H:\\node_login\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (H:\\node_login\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at module.exports.joinValidator (H:\\node_login\\middlewares\\join_validator.js:49:3)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"[14:54:35] ReferenceError: bcyrpt is not defined\n    at Object.join (H:\\node_login\\models\\member.js:23:17)\n    at H:\\node_login\\routes\\member.js:15:47\n    at Layer.handle [as handle_request] (H:\\node_login\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (H:\\node_login\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at module.exports.joinValidator (H:\\node_login\\middlewares\\join_validator.js:49:3)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"info","message":"[14:54:54] db 연결 성공"}
+{"level":"error","message":"[14:54:56] SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':memId, :memPw, :memNm, :email, :cellPhone, :snsType, :snsId)' at line 3\n    at Query.formatError (H:\\node_login\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:265:16)\n    at Query.run (H:\\node_login\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:77:18)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n    at async H:\\node_login\\node_modules\\sequelize\\lib\\sequelize.js:619:16\n    at async Object.join (H:\\node_login\\models\\member.js:38:4)\n    at async H:\\node_login\\routes\\member.js:15:19"}
+{"level":"info","message":"[14:56:06] db 연결 성공"}
+{"level":"info","message":"[14:56:40] db 연결 성공"}
+{"level":"info","message":"[14:56:46] db 연결 성공"}
+{"level":"info","message":"[14:57:12] db 연결 성공"}
+{"level":"info","message":"[14:57:26] db 연결 성공"}
+{"level":"info","message":"[14:57:31] db 연결 성공"}
+{"level":"info","message":"[15:01:48] db 연결 성공"}
+{"level":"error","message":"[15:01:57] [500]template not found: /member/login.html"}
+{"level":"error","message":"[15:01:57] Error: template not found: /member/login.html\n    at createTemplate (H:\\node_login\\node_modules\\nunjucks\\src\\environment.js:290:15)\n    at next (H:\\node_login\\node_modules\\nunjucks\\src\\lib.js:330:7)\n    at handle (H:\\node_login\\node_modules\\nunjucks\\src\\environment.js:329:11)\n    at H:\\node_login\\node_modules\\nunjucks\\src\\environment.js:339:9\n    at next (H:\\node_login\\node_modules\\nunjucks\\src\\lib.js:328:7)\n    at Object.asyncIter (H:\\node_login\\node_modules\\nunjucks\\src\\lib.js:334:3)\n    at Environment.getTemplate (H:\\node_login\\node_modules\\nunjucks\\src\\environment.js:321:9)\n    at Environment.render (H:\\node_login\\node_modules\\nunjucks\\src\\environment.js:360:10)\n    at NunjucksView.render (H:\\node_login\\node_modules\\nunjucks\\src\\express-app.js:22:9)\n    at tryRender (H:\\node_login\\node_modules\\express\\lib\\application.js:640:10)"}
+{"level":"info","message":"[15:02:53] db 연결 성공"}
+{"level":"error","message":"[15:03:13] Error: template not found: /member/login.html\n    at createTemplate (H:\\node_login\\node_modules\\nunjucks\\src\\environment.js:290:15)\n    at next (H:\\node_login\\node_modules\\nunjucks\\src\\lib.js:330:7)\n    at handle (H:\\node_login\\node_modules\\nunjucks\\src\\environment.js:329:11)\n    at H:\\node_login\\node_modules\\nunjucks\\src\\environment.js:339:9\n    at next (H:\\node_login\\node_modules\\nunjucks\\src\\lib.js:328:7)\n    at Object.asyncIter (H:\\node_login\\node_modules\\nunjucks\\src\\lib.js:334:3)\n    at Environment.getTemplate (H:\\node_login\\node_modules\\nunjucks\\src\\environment.js:321:9)\n    at Environment.render (H:\\node_login\\node_modules\\nunjucks\\src\\environment.js:360:10)\n    at NunjucksView.render (H:\\node_login\\node_modules\\nunjucks\\src\\express-app.js:22:9)\n    at tryRender (H:\\node_login\\node_modules\\express\\lib\\application.js:640:10)"}
+{"level":"error","message":"[15:03:13] [500]template not found: /member/login.html"}
+{"level":"error","message":"[15:03:46] [500]template not found: /member/login.html"}
+{"level":"error","message":"[15:03:48] Error: template not found: /member/login.html\n    at createTemplate (H:\\node_login\\node_modules\\nunjucks\\src\\environment.js:290:15)\n    at next (H:\\node_login\\node_modules\\nunjucks\\src\\lib.js:330:7)\n    at handle (H:\\node_login\\node_modules\\nunjucks\\src\\environment.js:329:11)\n    at H:\\node_login\\node_modules\\nunjucks\\src\\environment.js:339:9\n    at next (H:\\node_login\\node_modules\\nunjucks\\src\\lib.js:328:7)\n    at Object.asyncIter (H:\\node_login\\node_modules\\nunjucks\\src\\lib.js:334:3)\n    at Environment.getTemplate (H:\\node_login\\node_modules\\nunjucks\\src\\environment.js:321:9)\n    at Environment.render (H:\\node_login\\node_modules\\nunjucks\\src\\environment.js:360:10)\n    at NunjucksView.render (H:\\node_login\\node_modules\\nunjucks\\src\\express-app.js:22:9)\n    at tryRender (H:\\node_login\\node_modules\\express\\lib\\application.js:640:10)"}
+{"level":"info","message":"[15:03:48] db 연결 성공"}
+{"level":"info","message":"[15:04:14] db 연결 성공"}
+{"level":"info","message":"[15:04:28] db 연결 성공"}
+{"level":"info","message":"[15:05:15] db 연결 성공"}
+{"level":"info","message":"[15:05:24] db 연결 성공"}
+{"level":"info","message":"[15:05:26] db 연결 성공"}
+{"level":"info","message":"[15:05:27] db 연결 성공"}
+{"level":"info","message":"[15:05:44] db 연결 성공"}
+{"level":"info","message":"[15:06:44] db 연결 성공"}
+{"level":"info","message":"[15:06:53] db 연결 성공"}
+{"level":"info","message":"[15:07:22] db 연결 성공"}
+{"level":"info","message":"[15:07:47] db 연결 성공"}
+{"level":"info","message":"[15:07:54] db 연결 성공"}
+{"level":"info","message":"[15:08:13] db 연결 성공"}
+{"level":"info","message":"[15:08:25] db 연결 성공"}
+{"level":"info","message":"[15:08:38] db 연결 성공"}
+{"level":"info","message":"[15:08:56] db 연결 성공"}
+{"level":"info","message":"[15:09:48] db 연결 성공"}
+{"level":"info","message":"[15:10:04] db 연결 성공"}
+{"level":"info","message":"[15:10:24] db 연결 성공"}
+{"level":"info","message":"[15:10:30] db 연결 성공"}
+{"level":"info","message":"[15:11:01] db 연결 성공"}
