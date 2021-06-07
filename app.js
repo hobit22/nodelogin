@@ -59,11 +59,39 @@ app.use('/', express.static(path.join(__dirname, 'public')));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
+/** 공통 라우터 */
+app.use((req,res,next) => {
+	/** body 클래스 자동 완성(url 기준) */
+	
+	let url = req.url;
+	let end = url.indexOf("?");
+	if(end !== -1){
+		url = url.slice(0, end);
+	}
+	end = url.indexOf("#");
+	if(end !== -1){
+		url = url.slice(0, end);
+	}
+	
+	let addClass ='';
+	if(url == '/') addClass='main';
+	else {
+		url = url.split("/");
+		if(url.length > 2){
+			addClass = url[1] + "_" + url[2];			
+		}else{
+			addClass = url[1] ;
+		}
+		
+	}	
+	res.locals.bodyClass = addClass;
+	
+	next();
+});
 
 /** 라우터 등록 */
 app.use('/', indexRouter);
-
-
+app.use('/member/login', indexRouter);
 
 app.use((req, res, next) => { //없는 페이지 미들웨어
 	const error = new Error(`${req.method} ${req.url} 는 없는 페이지 입니다.`);
