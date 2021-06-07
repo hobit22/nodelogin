@@ -4,6 +4,8 @@ const morgan = require('morgan');
 const nunjucks = require('nunjucks');
 const methodOverride = require('method-override');
 const dotenv = require('dotenv');
+const cookieParser = require("cookie-parser");
+const session = require('express-session');
 const logger = require('./lib/logger');
 const { sequelize } = require("./models");
 

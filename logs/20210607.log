@@ -2,3 +2,5 @@
 {"level":"error","message":"[10:35:52] [404]GET / 는 없는 페이지 입니다."}
 {"level":"error","message":"[10:36:10] [404]GET /asdf 는 없는 페이지 입니다."}
 {"level":"error","message":"[10:36:10] Error: GET /asdf 는 없는 페이지 입니다.\n    at H:\\node_login\\app.js:31:16\n    at Layer.handle [as handle_request] (H:\\node_login\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (H:\\node_login\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at H:\\node_login\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (H:\\node_login\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (H:\\node_login\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at urlencodedParser (H:\\node_login\\node_modules\\body-parser\\lib\\types\\urlencoded.js:91:7)\n    at Layer.handle [as handle_request] (H:\\node_login\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (H:\\node_login\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at H:\\node_login\\node_modules\\express\\lib\\router\\index.js:284:7"}
+{"level":"info","message":"[10:46:38] db 연결 성공"}
+{"level":"info","message":"[10:48:06] db 연결 성공"}
