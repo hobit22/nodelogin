@@ -47,6 +47,11 @@ router.get("/logout", (req,res,next) =>{
 	return res.redirect("/member/login");
 });
 
+router.get("/login_callback", (req,res,next) =>{
+	console.log(req.query);
+	return res.send('');
+});
+
 
 
 
