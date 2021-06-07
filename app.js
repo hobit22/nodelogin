@@ -12,7 +12,8 @@ const { mainMenu } = require("./middlewares/main_menu"); //메인 메뉴
 
 
 /** 라우터 */
-const indexRouter = require('./routes/index'); //index생략가능
+const indexRouter = require('./routes/index'); //index생략가능 메인페이지
+const memberRouter = require('./routes/member'); //회원 페이지
 
 dotenv.config();
 
@@ -94,7 +95,7 @@ app.use((req, res, next) => {
 
 /** 라우터 등록 */
 app.use('/', indexRouter);
-//app.use('/member/login', indexRouter);
+app.use('/member', memberRouter);
 
 app.use((req, res, next) => { //없는 페이지 미들웨어
 	const error = new Error(`${req.method} ${req.url} 는 없는 페이지 입니다.`);

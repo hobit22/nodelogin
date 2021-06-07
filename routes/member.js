@@ -1,11 +1,11 @@
 const express = require('express');
-const router = express.Router;
+const router = express.Router();
 
 /** /member/join */
 router.route("/join")
 		/**	 회원가입 양식 */
 		.get((req,res,next) =>{
-			
+			return res.render("member/form");
 		})
 		/**	 회원가입 처리 */
 		.post((req,res,next)=>{
